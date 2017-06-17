@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636312C81EF3E11D00DB2F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636312C71EF3E11D00DB2F6C /* main.m */; };
+		636312D11EF3E11D00DB2F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636312CF1EF3E11D00DB2F6C /* Main.storyboard */; };
+		636312D31EF3E11D00DB2F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636312D21EF3E11D00DB2F6C /* Assets.xcassets */; };
+		636312D61EF3E11D00DB2F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636312D41EF3E11D00DB2F6C /* LaunchScreen.storyboard */; };
+		636312E11EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636312E01EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests.m */; };
+		636312EC1EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636312EB1EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests.m */; };
+		636313021EF3E59200DB2F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 636312FB1EF3E59200DB2F6C /* AppDelegate.m */; };
+		636313051EF3E5BA00DB2F6C /* JGTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313041EF3E5BA00DB2F6C /* JGTabbarController.m */; };
+		636313081EF3E5D300DB2F6C /* JGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313071EF3E5D300DB2F6C /* JGNavigationController.m */; };
+		6363130B1EF3E5F500DB2F6C /* JGHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363130A1EF3E5F500DB2F6C /* JGHomeController.m */; };
+		6363130E1EF3E60600DB2F6C /* JGMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363130D1EF3E60600DB2F6C /* JGMineController.m */; };
+		636313111EF3E61600DB2F6C /* JGOtherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313101EF3E61600DB2F6C /* JGOtherController.m */; };
+		636313141EF3E63D00DB2F6C /* JGAppStartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313131EF3E63D00DB2F6C /* JGAppStartManager.m */; };
+		636313171EF3E6DC00DB2F6C /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313161EF3E6DC00DB2F6C /* Member.m */; };
+		6363131A1EF3EA7200DB2F6C /* JGMineInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313191EF3EA7200DB2F6C /* JGMineInfoController.m */; };
+		6363131E1EF3EB5F00DB2F6C /* JGLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363131D1EF3EB5F00DB2F6C /* JGLoginController.m */; };
+		636313221EF3ECDC00DB2F6C /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313211EF3ECDC00DB2F6C /* MBProgressHUD+MJ.m */; };
+		636313251EF3ED0B00DB2F6C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313241EF3ED0B00DB2F6C /* MBProgressHUD.m */; };
+		636313281EF3F13A00DB2F6C /* JGForgetPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636313271EF3F13A00DB2F6C /* JGForgetPwdController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		636312DD1EF3E11D00DB2F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636312BB1EF3E11D00DB2F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636312C21EF3E11D00DB2F6C;
+			remoteInfo = JGLoginInOrOutFrame;
+		};
+		636312E81EF3E11D00DB2F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636312BB1EF3E11D00DB2F6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636312C21EF3E11D00DB2F6C;
+			remoteInfo = JGLoginInOrOutFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636312C31EF3E11D00DB2F6C /* JGLoginInOrOutFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGLoginInOrOutFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		636312C71EF3E11D00DB2F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		636312D01EF3E11D00DB2F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		636312D21EF3E11D00DB2F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		636312D51EF3E11D00DB2F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		636312D71EF3E11D00DB2F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636312DC1EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGLoginInOrOutFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636312E01EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGLoginInOrOutFrameTests.m; sourceTree = "<group>"; };
+		636312E21EF3E11D00DB2F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636312E71EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JGLoginInOrOutFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636312EB1EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGLoginInOrOutFrameUITests.m; sourceTree = "<group>"; };
+		636312ED1EF3E11D00DB2F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636312FA1EF3E59200DB2F6C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		636312FB1EF3E59200DB2F6C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		636313031EF3E5BA00DB2F6C /* JGTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGTabbarController.h; sourceTree = "<group>"; };
+		636313041EF3E5BA00DB2F6C /* JGTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGTabbarController.m; sourceTree = "<group>"; };
+		636313061EF3E5D300DB2F6C /* JGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGNavigationController.h; sourceTree = "<group>"; };
+		636313071EF3E5D300DB2F6C /* JGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGNavigationController.m; sourceTree = "<group>"; };
+		636313091EF3E5F500DB2F6C /* JGHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGHomeController.h; sourceTree = "<group>"; };
+		6363130A1EF3E5F500DB2F6C /* JGHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGHomeController.m; sourceTree = "<group>"; };
+		6363130C1EF3E60600DB2F6C /* JGMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMineController.h; sourceTree = "<group>"; };
+		6363130D1EF3E60600DB2F6C /* JGMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMineController.m; sourceTree = "<group>"; };
+		6363130F1EF3E61600DB2F6C /* JGOtherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGOtherController.h; sourceTree = "<group>"; };
+		636313101EF3E61600DB2F6C /* JGOtherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGOtherController.m; sourceTree = "<group>"; };
+		636313121EF3E63D00DB2F6C /* JGAppStartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGAppStartManager.h; sourceTree = "<group>"; };
+		636313131EF3E63D00DB2F6C /* JGAppStartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGAppStartManager.m; sourceTree = "<group>"; };
+		636313151EF3E6DC00DB2F6C /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		636313161EF3E6DC00DB2F6C /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		636313181EF3EA7200DB2F6C /* JGMineInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMineInfoController.h; sourceTree = "<group>"; };
+		636313191EF3EA7200DB2F6C /* JGMineInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMineInfoController.m; sourceTree = "<group>"; };
+		6363131C1EF3EB5F00DB2F6C /* JGLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGLoginController.h; sourceTree = "<group>"; };
+		6363131D1EF3EB5F00DB2F6C /* JGLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGLoginController.m; sourceTree = "<group>"; };
+		636313201EF3ECDC00DB2F6C /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		636313211EF3ECDC00DB2F6C /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		636313231EF3ED0B00DB2F6C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		636313241EF3ED0B00DB2F6C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		636313261EF3F13A00DB2F6C /* JGForgetPwdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGForgetPwdController.h; sourceTree = "<group>"; };
+		636313271EF3F13A00DB2F6C /* JGForgetPwdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGForgetPwdController.m; sourceTree = "<group>"; };
+		6363132A1EF3F34B00DB2F6C /* HMSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSingleton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636312C01EF3E11D00DB2F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636312D91EF3E11D00DB2F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636312E41EF3E11D00DB2F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636312BA1EF3E11D00DB2F6C = {
+			isa = PBXGroup;
+			children = (
+				636312C51EF3E11D00DB2F6C /* JGLoginInOrOutFrame */,
+				636312DF1EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests */,
+				636312EA1EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests */,
+				636312C41EF3E11D00DB2F6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636312C41EF3E11D00DB2F6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636312C31EF3E11D00DB2F6C /* JGLoginInOrOutFrame.app */,
+				636312DC1EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests.xctest */,
+				636312E71EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636312C51EF3E11D00DB2F6C /* JGLoginInOrOutFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6363131B1EF3EB3F00DB2F6C /* LoginVC */,
+				636312F91EF3E59200DB2F6C /* Apps */,
+				636312FE1EF3E59200DB2F6C /* Main */,
+				636312FC1EF3E59200DB2F6C /* HomeVC */,
+				636312FF1EF3E59200DB2F6C /* MineVC */,
+				636313011EF3E59200DB2F6C /* OtherVC */,
+				636312C61EF3E11D00DB2F6C /* Supporting Files */,
+			);
+			path = JGLoginInOrOutFrame;
+			sourceTree = "<group>";
+		};
+		636312C61EF3E11D00DB2F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6363131F1EF3ECD600DB2F6C /* Others */,
+				636312CF1EF3E11D00DB2F6C /* Main.storyboard */,
+				636312D21EF3E11D00DB2F6C /* Assets.xcassets */,
+				6363132A1EF3F34B00DB2F6C /* HMSingleton.h */,
+				636312D41EF3E11D00DB2F6C /* LaunchScreen.storyboard */,
+				636312D71EF3E11D00DB2F6C /* Info.plist */,
+				636312C71EF3E11D00DB2F6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		636312DF1EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				636312E01EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests.m */,
+				636312E21EF3E11D00DB2F6C /* Info.plist */,
+			);
+			path = JGLoginInOrOutFrameTests;
+			sourceTree = "<group>";
+		};
+		636312EA1EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				636312EB1EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests.m */,
+				636312ED1EF3E11D00DB2F6C /* Info.plist */,
+			);
+			path = JGLoginInOrOutFrameUITests;
+			sourceTree = "<group>";
+		};
+		636312F91EF3E59200DB2F6C /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				636312FA1EF3E59200DB2F6C /* AppDelegate.h */,
+				636312FB1EF3E59200DB2F6C /* AppDelegate.m */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		636312FC1EF3E59200DB2F6C /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				636312FD1EF3E59200DB2F6C /* Controllers */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		636312FD1EF3E59200DB2F6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				636313091EF3E5F500DB2F6C /* JGHomeController.h */,
+				6363130A1EF3E5F500DB2F6C /* JGHomeController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		636312FE1EF3E59200DB2F6C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				636313121EF3E63D00DB2F6C /* JGAppStartManager.h */,
+				636313131EF3E63D00DB2F6C /* JGAppStartManager.m */,
+				636313031EF3E5BA00DB2F6C /* JGTabbarController.h */,
+				636313041EF3E5BA00DB2F6C /* JGTabbarController.m */,
+				636313061EF3E5D300DB2F6C /* JGNavigationController.h */,
+				636313071EF3E5D300DB2F6C /* JGNavigationController.m */,
+				636313151EF3E6DC00DB2F6C /* Member.h */,
+				636313161EF3E6DC00DB2F6C /* Member.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		636312FF1EF3E59200DB2F6C /* MineVC */ = {
+			isa = PBXGroup;
+			children = (
+				636313001EF3E59200DB2F6C /* Controllers */,
+			);
+			path = MineVC;
+			sourceTree = "<group>";
+		};
+		636313001EF3E59200DB2F6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6363130C1EF3E60600DB2F6C /* JGMineController.h */,
+				6363130D1EF3E60600DB2F6C /* JGMineController.m */,
+				636313181EF3EA7200DB2F6C /* JGMineInfoController.h */,
+				636313191EF3EA7200DB2F6C /* JGMineInfoController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		636313011EF3E59200DB2F6C /* OtherVC */ = {
+			isa = PBXGroup;
+			children = (
+				6363130F1EF3E61600DB2F6C /* JGOtherController.h */,
+				636313101EF3E61600DB2F6C /* JGOtherController.m */,
+			);
+			path = OtherVC;
+			sourceTree = "<group>";
+		};
+		6363131B1EF3EB3F00DB2F6C /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				6363131C1EF3EB5F00DB2F6C /* JGLoginController.h */,
+				6363131D1EF3EB5F00DB2F6C /* JGLoginController.m */,
+				636313261EF3F13A00DB2F6C /* JGForgetPwdController.h */,
+				636313271EF3F13A00DB2F6C /* JGForgetPwdController.m */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		6363131F1EF3ECD600DB2F6C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				636313231EF3ED0B00DB2F6C /* MBProgressHUD.h */,
+				636313241EF3ED0B00DB2F6C /* MBProgressHUD.m */,
+				636313201EF3ECDC00DB2F6C /* MBProgressHUD+MJ.h */,
+				636313211EF3ECDC00DB2F6C /* MBProgressHUD+MJ.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636312C21EF3E11D00DB2F6C /* JGLoginInOrOutFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636312F01EF3E11D00DB2F6C /* Build configuration list for PBXNativeTarget "JGLoginInOrOutFrame" */;
+			buildPhases = (
+				636312BF1EF3E11D00DB2F6C /* Sources */,
+				636312C01EF3E11D00DB2F6C /* Frameworks */,
+				636312C11EF3E11D00DB2F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGLoginInOrOutFrame;
+			productName = JGLoginInOrOutFrame;
+			productReference = 636312C31EF3E11D00DB2F6C /* JGLoginInOrOutFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		636312DB1EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636312F31EF3E11D00DB2F6C /* Build configuration list for PBXNativeTarget "JGLoginInOrOutFrameTests" */;
+			buildPhases = (
+				636312D81EF3E11D00DB2F6C /* Sources */,
+				636312D91EF3E11D00DB2F6C /* Frameworks */,
+				636312DA1EF3E11D00DB2F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636312DE1EF3E11D00DB2F6C /* PBXTargetDependency */,
+			);
+			name = JGLoginInOrOutFrameTests;
+			productName = JGLoginInOrOutFrameTests;
+			productReference = 636312DC1EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		636312E61EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636312F61EF3E11D00DB2F6C /* Build configuration list for PBXNativeTarget "JGLoginInOrOutFrameUITests" */;
+			buildPhases = (
+				636312E31EF3E11D00DB2F6C /* Sources */,
+				636312E41EF3E11D00DB2F6C /* Frameworks */,
+				636312E51EF3E11D00DB2F6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636312E91EF3E11D00DB2F6C /* PBXTargetDependency */,
+			);
+			name = JGLoginInOrOutFrameUITests;
+			productName = JGLoginInOrOutFrameUITests;
+			productReference = 636312E71EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636312BB1EF3E11D00DB2F6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZJBL;
+				TargetAttributes = {
+					636312C21EF3E11D00DB2F6C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N7J28C72LH;
+						ProvisioningStyle = Automatic;
+					};
+					636312DB1EF3E11D00DB2F6C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 636312C21EF3E11D00DB2F6C;
+					};
+					636312E61EF3E11D00DB2F6C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 636312C21EF3E11D00DB2F6C;
+					};
+				};
+			};
+			buildConfigurationList = 636312BE1EF3E11D00DB2F6C /* Build configuration list for PBXProject "JGLoginInOrOutFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 636312BA1EF3E11D00DB2F6C;
+			productRefGroup = 636312C41EF3E11D00DB2F6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636312C21EF3E11D00DB2F6C /* JGLoginInOrOutFrame */,
+				636312DB1EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests */,
+				636312E61EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636312C11EF3E11D00DB2F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636312D61EF3E11D00DB2F6C /* LaunchScreen.storyboard in Resources */,
+				636312D31EF3E11D00DB2F6C /* Assets.xcassets in Resources */,
+				636312D11EF3E11D00DB2F6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636312DA1EF3E11D00DB2F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636312E51EF3E11D00DB2F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636312BF1EF3E11D00DB2F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636313221EF3ECDC00DB2F6C /* MBProgressHUD+MJ.m in Sources */,
+				636313081EF3E5D300DB2F6C /* JGNavigationController.m in Sources */,
+				636313141EF3E63D00DB2F6C /* JGAppStartManager.m in Sources */,
+				636313021EF3E59200DB2F6C /* AppDelegate.m in Sources */,
+				6363130B1EF3E5F500DB2F6C /* JGHomeController.m in Sources */,
+				636312C81EF3E11D00DB2F6C /* main.m in Sources */,
+				636313111EF3E61600DB2F6C /* JGOtherController.m in Sources */,
+				6363131E1EF3EB5F00DB2F6C /* JGLoginController.m in Sources */,
+				636313051EF3E5BA00DB2F6C /* JGTabbarController.m in Sources */,
+				636313251EF3ED0B00DB2F6C /* MBProgressHUD.m in Sources */,
+				636313171EF3E6DC00DB2F6C /* Member.m in Sources */,
+				636313281EF3F13A00DB2F6C /* JGForgetPwdController.m in Sources */,
+				6363130E1EF3E60600DB2F6C /* JGMineController.m in Sources */,
+				6363131A1EF3EA7200DB2F6C /* JGMineInfoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636312D81EF3E11D00DB2F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636312E11EF3E11D00DB2F6C /* JGLoginInOrOutFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636312E31EF3E11D00DB2F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636312EC1EF3E11D00DB2F6C /* JGLoginInOrOutFrameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		636312DE1EF3E11D00DB2F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636312C21EF3E11D00DB2F6C /* JGLoginInOrOutFrame */;
+			targetProxy = 636312DD1EF3E11D00DB2F6C /* PBXContainerItemProxy */;
+		};
+		636312E91EF3E11D00DB2F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636312C21EF3E11D00DB2F6C /* JGLoginInOrOutFrame */;
+			targetProxy = 636312E81EF3E11D00DB2F6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		636312CF1EF3E11D00DB2F6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636312D01EF3E11D00DB2F6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		636312D41EF3E11D00DB2F6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636312D51EF3E11D00DB2F6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		636312EE1EF3E11D00DB2F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		636312EF1EF3E11D00DB2F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		636312F11EF3E11D00DB2F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N7J28C72LH;
+				INFOPLIST_FILE = JGLoginInOrOutFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongjiubianli.JGLoginInOrOutFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		636312F21EF3E11D00DB2F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N7J28C72LH;
+				INFOPLIST_FILE = JGLoginInOrOutFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongjiubianli.JGLoginInOrOutFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		636312F41EF3E11D00DB2F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGLoginInOrOutFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongjiubianli.JGLoginInOrOutFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGLoginInOrOutFrame.app/JGLoginInOrOutFrame";
+			};
+			name = Debug;
+		};
+		636312F51EF3E11D00DB2F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JGLoginInOrOutFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongjiubianli.JGLoginInOrOutFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JGLoginInOrOutFrame.app/JGLoginInOrOutFrame";
+			};
+			name = Release;
+		};
+		636312F71EF3E11D00DB2F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGLoginInOrOutFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongjiubianli.JGLoginInOrOutFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGLoginInOrOutFrame;
+			};
+			name = Debug;
+		};
+		636312F81EF3E11D00DB2F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JGLoginInOrOutFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongjiubianli.JGLoginInOrOutFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JGLoginInOrOutFrame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636312BE1EF3E11D00DB2F6C /* Build configuration list for PBXProject "JGLoginInOrOutFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636312EE1EF3E11D00DB2F6C /* Debug */,
+				636312EF1EF3E11D00DB2F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636312F01EF3E11D00DB2F6C /* Build configuration list for PBXNativeTarget "JGLoginInOrOutFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636312F11EF3E11D00DB2F6C /* Debug */,
+				636312F21EF3E11D00DB2F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		636312F31EF3E11D00DB2F6C /* Build configuration list for PBXNativeTarget "JGLoginInOrOutFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636312F41EF3E11D00DB2F6C /* Debug */,
+				636312F51EF3E11D00DB2F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		636312F61EF3E11D00DB2F6C /* Build configuration list for PBXNativeTarget "JGLoginInOrOutFrameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636312F71EF3E11D00DB2F6C /* Debug */,
+				636312F81EF3E11D00DB2F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636312BB1EF3E11D00DB2F6C /* Project object */;
+}
